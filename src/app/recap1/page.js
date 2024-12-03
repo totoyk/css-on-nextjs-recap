@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import sozaiPic from '@public/sozai.webp'
 
-const Recap = () => {
+const Recap1 = () => {
   return (
-    <div className={`RecapContainer`}>
+    <div className={`RecapContainer Recap1`}>
       <div className={`RecapPic`}>
         <Image src={sozaiPic} alt='sozai' />
       </div>
@@ -38,4 +38,4 @@ const Recap = () => {
   )
 }
 
-export default Recap
+export default Recap1

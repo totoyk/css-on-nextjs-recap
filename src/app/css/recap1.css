@@ -1,3 +1,9 @@
+.Recap1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .RecapPic {
   position: relative;
   width: 300px;

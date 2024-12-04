@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import sozaiPic from '@public/sozai.webp'
-
 const Recap2 = () => {
   return (
     <div className={`RecapContainer`}>

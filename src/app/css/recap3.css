@@ -1,0 +1,139 @@
+.RecapButton1,
+.RecapButton2,
+.RecapButton3,
+.RecapButton4 {
+  margin: 20px 20px;
+}
+
+.RecapButton1 a {
+  display: block;
+  position: relative;
+  padding: 30px 10px;
+  width: 260px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  background-color: #90be70;
+  border-radius: 20px;
+}
+
+.RecapButton1 a span {
+  position: relative;
+  padding: 10px;
+  background-color: #90be70;
+  z-index: 1;
+}
+
+.RecapButton1 a::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 90%;
+  height: 2px;
+  background-color: #2b550e;
+}
+
+.RecapButton1 a::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 90%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: #2b550e;
+  border-radius: 10px;
+}
+
+.RecapButton2 a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  width: 260px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #90be70;
+  border-radius: 20px;
+}
+
+.RecapButton2 a::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #2b550e;
+  border-right: 2px solid #2b550e;
+  transform: rotate(45deg);
+}
+
+.RecapButton3 a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 30px 33px 30px 30px;
+  width: 260px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #90be70;
+  border-radius: 50px;
+}
+
+.RecapButton3 a::before {
+  content: '';
+  position: absolute;
+  bottom: 32px;
+  right: 28px;
+  width: 18px;
+  height: 12px;
+  border-right: 2px solid #2b550e;
+  border-bottom: 2px solid #2b550e;
+}
+
+.RecapButton3 a::after {
+  content: '';
+  width: 18px;
+  height: 12px;
+  border: 2px solid #2b550e;
+}
+
+.RecapButton4 a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 30px 59px 30px 10px;
+  width: 280px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.RecapButton4 a::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 80px;
+  height: 80px;
+  border: 2px solid #90be70;
+  border-radius: 50%;
+}
+
+.RecapButton4 a::after {
+  content: '';
+  width: 70px;
+  height: 2px;
+  background-color: #2b550e;
+  z-index: 1;
+}
